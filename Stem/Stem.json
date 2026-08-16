@@ -1,0 +1,17 @@
+{
+  "svg":"Stem.stl",
+  "model-name":"Stem",
+  "items":[
+    {
+      "id":"Stem",
+      "attr":"material-color",
+      "value":"current_color"
+    }
+  ],
+  "events": [
+      {
+        "id":"Stem",
+        "event":"change_color"
+      }
+  ]
+}
