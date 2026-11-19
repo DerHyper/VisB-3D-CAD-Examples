@@ -1,0 +1,19 @@
+# FreeCAD v1.1 build1 Arch module
+# https://www.freecad.org
+mtllib MultipleModels-Quader.mtl
+o Quader
+usemtl color_727980
+v 0.0 0.0 10.0
+v 0.0 0.0 0.0
+v 0.0 10.0 10.0
+v 0.0 10.0 0.0
+v 10.0 0.0 10.0
+v 10.0 0.0 0.0
+v 10.0 10.0 10.0
+v 10.0 10.0 0.0
+f 4 3 1 2
+f 5 6 8 7
+f 1 5 6 2
+f 8 4 3 7
+f 6 8 4 2
+f 3 1 5 7
