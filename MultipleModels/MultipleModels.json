@@ -1,0 +1,54 @@
+{
+  "svg":"MultipleModels-Kegel.stl",
+  "models":["MultipleModels-Kugel.stl", "MultipleModels-Quader.stl", "MultipleModels-Torus.stl", "MultipleModels-Zylinder.stl"],
+  "model-name":"MultipleModels",
+  "items":[
+    {
+      "id":"MultipleModels-Kegel",
+      "attr":"material-color",
+      "value":"current_color"
+    },
+    {
+      "id":"MultipleModels-Kugel",
+      "attr":"material-color",
+      "value":"current_color"
+    },
+    {
+      "id":"MultipleModels-Quader",
+      "attr":"material-color",
+      "value":"current_color"
+    },
+    {
+      "id":"MultipleModels-Torus",
+      "attr":"material-color",
+      "value":"current_color"
+    },
+    {
+      "id":"MultipleModels-Zylinder",
+      "attr":"material-color",
+      "value":"current_color"
+    }
+  ],
+  "events": [
+      {
+        "id":"MultipleModels-Kegel",
+        "event":"change_color"
+      },
+      {
+        "id":"MultipleModels-Kugel",
+        "event":"change_color"
+      },
+      {
+        "id":"MultipleModels-Quader",
+        "event":"change_color"
+      },
+      {
+        "id":"MultipleModels-Torus",
+        "event":"change_color"
+      },
+      {
+        "id":"MultipleModels-Zylinder",
+        "event":"change_color"
+      }
+  ]
+}
